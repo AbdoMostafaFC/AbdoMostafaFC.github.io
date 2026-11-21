@@ -1,0 +1,9 @@
+*{box-sizing:border-box}body{margin:0;background:#f7f6f2;color:#1b2528;font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+main{max-width:960px;margin:0 auto;padding:48px 24px 64px}a{color:#0f6b6b}h1{font-size:clamp(30px,6vw,48px);line-height:1.1;margin:0 0 8px}
+h2{font-size:22px;margin:48px 0 16px}h3{font-size:17px;margin:0 0 6px}p{margin:0 0 12px}.fact,.role,.date,.stack,.meta,.focus,figcaption{color:#5a6669;font-size:13px}.lead{font-size:18px;margin-top:12px}
+.intro{display:grid;gap:24px;align-items:center;margin-top:32px}.intro img{width:100%;max-height:240px;object-fit:cover;border-radius:12px;display:block}figure{margin:0}figcaption{margin-top:8px}
+.links{display:flex;flex-wrap:wrap;gap:4px 24px}.links a,.contacts a{min-height:44px;display:inline-flex;align-items:center}.focus{color:#0f6b6b}
+.grid{display:grid;gap:0 32px}.grid article,.job{border-top:1px solid #d9d6cc;padding:20px 0}.meta{display:flex;justify-content:space-between;margin-bottom:8px}.meta span:first-child{color:#0f6b6b;font-weight:600}
+.jh{display:flex;flex-direction:column;gap:4px;margin-bottom:8px}.job ul{margin:0;padding-left:20px}.result{color:#0f6b6b;font-weight:600}
+.contacts{display:grid;gap:16px;margin-top:16px}.contacts a{overflow-wrap:anywhere}footer{margin-top:56px;border-top:1px solid #d9d6cc;padding-top:20px;color:#5a6669;font-size:13px}
+@media(min-width:768px){.intro{grid-template-columns:1.15fr .85fr;gap:40px}.grid{grid-template-columns:1fr 1fr}.jh{flex-direction:row;justify-content:space-between}.contacts{grid-template-columns:1.5fr 1fr 1.15fr}}
